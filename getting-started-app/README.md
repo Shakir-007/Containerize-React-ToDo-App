@@ -1,4 +1,4 @@
-# Getting started
+# I have explained all the steps below that has been done in this project.
 
 This repository is a sample application for users following the getting started guide at https://docs.docker.com/get-started/.
 
@@ -89,3 +89,5 @@ CONTAINER ID        IMAGE               COMMAND                  CREATED        
 df784548666d        getting-started     "docker-entrypoint.s…"   2 minutes ago       Up 2 minutes        127.0.0.1:3000->3000/tcp   priceless_mcclintock
 Summary
 In this section, you learned the basics about creating a Dockerfile to build an image. Once you built an image, you started a container and saw the running app.
+
+# Thank You
