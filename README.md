@@ -16,18 +16,18 @@ $$End of script$$
 
 # Navigate to getting-started-app Directory
 navigate to files 
-<<cd getting-started-app>>
+||cd getting-started-app||
 
 # Build the image
-<<docker build -t getting-started .>>
+||docker build -t getting-started .||
 
 # Start an app container
 Now that you have an image, you can run the application in a container using the docker run command.
 Run your container using the docker run command and specify the name of the image you just created:
-<<docker run -d -p 127.0.0.1:3000:3000 getting-started>>
+||docker run -d -p 127.0.0.1:3000:3000 getting-started||
 
 # Run the <<docker ps>> command in a terminal to list your containers.
-<<docker ps>>
+||docker ps||
 
 # Output similar to the following should appear.
 
