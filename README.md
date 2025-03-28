@@ -34,3 +34,6 @@ Run your container using the docker run command and specify the name of the imag
 CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                      NAMES
 df784548666d        getting-started     "docker-entrypoint.sâ¦"   2 minutes ago       Up 2 minutes        127.0.0.1:3000->3000/tcp   priceless_mcclintock
 
+
+# Output 
+click on curl http://127.0.0.1:3000/
